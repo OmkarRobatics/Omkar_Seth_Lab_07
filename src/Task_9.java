@@ -1,15 +1,15 @@
 public class Task_9 {
     public static void main(String[] args) {
-
-final int Row = 2;
-        for (int row = 0; row < Row; row++)
+// var declarations
+final int COL = 5;
+        for (int row = 0; row < 3; row++) // outer loop for row
         {
-            for(int col = 0; col < Row; col++)
+            for(int col = 0; col < COL; col++) // inner loop for column
             {
-                System.out.printf("*");
-                if(col == 0 || col == 9)
+                System.out.printf("*"); // prints asterisks
+                if(col == 0 )
                 {
-                    System.out.println("        *");
+                    System.out.println("        ");
                 }
             }
             System.out.println("");
